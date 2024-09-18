@@ -33,7 +33,6 @@ export class NavbarComponent extends Component {
 							</li>
 						</div>
 						<button className={`${style['close-btn']}`}>
-							{/* <FontAwesomeIcon icon={faBars} size='lg' color='red' /> */}
 							<FaBars size={24} color='red' />
 						</button>
 					</nav>
