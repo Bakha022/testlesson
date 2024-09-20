@@ -29,3 +29,23 @@
 .bottom-post {
     margin-bottom: 168px;
 }
+
+@media (max-width: 1025px) {
+    .post-row {
+        gap: 20px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .post-img img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 321px) {
+    .post-img img {
+        width: 250px;
+    }
+}
