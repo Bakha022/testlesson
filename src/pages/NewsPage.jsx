@@ -3,7 +3,7 @@ import { Component, Fragment } from 'react';
 // Components
 import CardNews from '../components/cardNews/';
 import HeaderNews from '../components/headerNews';
-import SubscribeForm from '../components/subscribeForm/';
+import SubscribeForm from '../components/SubscribeForm/';
 // Function
 export default class NewsPage extends Component {
    render() {
