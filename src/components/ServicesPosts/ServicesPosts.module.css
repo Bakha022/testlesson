@@ -1,0 +1,31 @@
+.post-row {
+    margin-top: 196px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post-left {
+    max-width: 536px;
+    width: 100%;
+}
+
+.post-left h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+}
+
+.post-left p {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: left;
+}
+
+.bottom-post {
+    margin-bottom: 168px;
+}

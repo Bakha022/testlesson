@@ -1,0 +1,100 @@
+.about-row {
+    margin-bottom: 182.23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-left {
+    position: relative;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.about-left:hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.about-right {
+    max-width: 383.41px;
+    width: 100%;
+}
+
+.about-right h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54.15px;
+    text-align: left;
+}
+
+.about-right h4 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+    text-align: left;
+}
+
+.about-left-play-icon {
+    position: absolute;
+    top: 144.73px;
+    left: 304.77px;
+}
+
+.about-check {
+    margin-top: 28px;
+}
+
+.row-check {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+}
+
+.row-check p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+    text-align: left;
+}
+
+@media (max-width: 1025px) {
+    .about-row {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .about-left-img img {
+        width: 400px;
+    }
+
+    .about-left-play-icon {
+        top: 70px;
+        left: 170px;
+    }
+}
+
+@media (max-width: 321px) {
+    .about-left-img img {
+        width: 300px;
+    }
+
+    .about-left-play-icon {
+        top: 40px;
+        left: 120px;
+    }
+
+    .about-right h1 {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .about-right h4 {
+        font-size: 12px;
+    }
+}

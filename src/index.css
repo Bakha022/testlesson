@@ -10,6 +10,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	background-color: #070320;
+	height: 100%;
 }
 
 a {
@@ -70,6 +71,22 @@ ul {
 	color: #2351f5;
 	text-decoration: underline;
 }
+
+.swiper {
+	width: 100%;
+	height: auto;
+}
+
+.swiper-slide {
+	max-width: 400px !important;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 @media (max-width: 597px) {
 	.error-title {

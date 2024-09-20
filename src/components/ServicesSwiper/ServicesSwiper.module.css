@@ -1,0 +1,110 @@
+.swiper {
+    background: #D0CAC7;
+}
+
+.swiper-container {
+    padding: 88px 0px;
+    color: #000;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider-slide h2 {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+}
+
+.slider-slide p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+    text-align: center;
+    color: #7C6161;
+}
+
+.slider-slide {
+    width: 447.81px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider-card {
+    width: 100%;
+    max-width: 400px;
+    height: 230px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.card-top-star span {
+    color: #000;
+}
+
+.slider-card:hover {
+    color: #fff;
+    background: #000;
+}
+
+.slider-card:hover .card-top-name h2 {
+    color: #fff;
+}
+
+.slider-card:hover .card-subtitle  {
+    color: #fff;
+}
+
+.slider-card:hover .card-top-star span  {
+    color: #fff;
+}
+
+.card-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-top-names {
+    display: flex;
+    gap: 8px;
+}
+
+.card-top-name h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #000;
+}
+
+.card-top-name p {
+    margin-top: -20px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #4F5665;
+}
+
+.card-top-star {
+    align-items: center;
+    gap: 8px;
+}
+
+.card-subtitle {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.25px;
+    text-align: left;
+    color: #000;
+}
