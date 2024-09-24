@@ -20,13 +20,13 @@ export class ServicesSwiper extends Component {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
 
-                    <div className={`${style['slider-slider']}`}>
+                    <div className={`${style['slider-container']}`}>
                         <Swiper
                             slidesPerView={3}
                             spaceBetween={20}
                             pagination={{
                                 el: `.${style['swiper-pagination']}`,
-                                clickable: true, 
+                                clickable: true,
                             }}
                             navigation={{
                                 nextEl: '#swiper-button-next',
