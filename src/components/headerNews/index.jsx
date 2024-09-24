@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FaChevronRight } from "react-icons/fa"
-import { Link,  } from 'react-router-dom'
+import { Link, } from 'react-router-dom'
 
 import "./hero.css"
 
@@ -14,7 +14,7 @@ class Hero extends Component {
                             Home
                         </Link>
                         {/* <FaChevronRight className='text-white' size={14} /> */}
-                        <a className="hero__items-href" href="#">
+                        <a className="heFaChevronRightro__items-href" href="#">
                             News
                         </a>
                     </div>
