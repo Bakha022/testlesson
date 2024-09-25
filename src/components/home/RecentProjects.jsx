@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class RecentProjects extends Component {
     render() {
         return (
-            <div className='container2 '>
+            <div className='container2'>
                 <div className="row">
                     <div className="col-12 text-center">
                         <h3 className='projects-h3 fw-bold'>Our Recent Projects</h3>

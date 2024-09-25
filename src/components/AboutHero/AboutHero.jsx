@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from "./AboutHero.module.css";
 import { Link, NavLink } from 'react-router-dom';
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 import image1 from "../../assets/images/about-1.png";
 
 export class AboutHero extends Component {
